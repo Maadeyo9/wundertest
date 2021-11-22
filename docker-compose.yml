@@ -40,3 +40,12 @@ services:
       - php
     volumes:
       - .:/var/www/symfony
+  phpmyadmin:
+    image: phpmyadmin
+    restart: always
+    ports:
+      - 8080:80
+    environment:
+      - PMA_ARBITRARY=1
+    links:
+      - "db:db"
