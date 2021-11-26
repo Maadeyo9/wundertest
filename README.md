@@ -35,4 +35,6 @@ Symfony based note API. Provides JSON API endpoints to create, read, update and 
 ## Documentation
 
 Phpadmin running on localhost:8080
-access credentials for db are db:3306 and symfony//symfony
+The bundles used should be automatically built by composer
+Access credentials for db are db:3306 and symfony//symfony
+API calls were conducted with Postman instead of coming up with an entire form for it. API endpoints visible on the generator methods (and on the description)
