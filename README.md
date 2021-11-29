@@ -11,6 +11,7 @@ Symfony based note API. Provides JSON API endpoints to create, read, update and 
 5. Install dependencies - `composer install`
 6. Open site in browser [localhost:8001](http://localhost:8001)
 
+
 ## Tasks
 
 1. Copy this repository to your own GitHub account.
@@ -27,3 +28,14 @@ Symfony based note API. Provides JSON API endpoints to create, read, update and 
 7. Create **Pull Request on your own repository describing changes**. Add manual testing scenarios for each functionality in PR.
 8. (Optional) Write unit or web tests.
 9. Send us a link to your PR.
+
+
+
+
+## Documentation
+
+- Phpadmin running on localhost:8080
+- The bundles used should be automatically built by composer
+- Access credentials for db are db:3306 and symfony//symfony
+- API calls were conducted with Postman instead of coming up with an entire form for it.
+- API endpoints visible on the generator methods (and on the description).
